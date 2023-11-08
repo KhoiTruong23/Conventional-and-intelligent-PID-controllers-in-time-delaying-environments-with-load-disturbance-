@@ -94,7 +94,7 @@ In this project, I compare PID controllers tunned by Z_N method verse Fuzzy PID 
 </p>
 
 <p align="center">
-  <img src="resources/Medium_quantitative.png" width=600><br/>
+  <img src="resources/Medium_Quantitative.png" width=600><br/>
   <i> Quantitative Result</i>
 </p>
 
