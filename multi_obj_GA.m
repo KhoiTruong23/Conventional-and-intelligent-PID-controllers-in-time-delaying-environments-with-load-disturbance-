@@ -1,0 +1,10 @@
+rFitnessFunction = @multi_obj; % Function handle to the fitness function
+numberOfVariables = 3; % Number of decision variables
+lb = [-20 -20 -20]; % Lower bound
+ub = [20 20 20]; % Upper bound
+A = []; % No linear inequa+lity constraints
+b = []; % No linear inequality constraints
+Aeq = []; % No linear equality constraints
+beq = []; % No linear equality constraints
+options = optimoptions(@gamultiobj,'PlotFcn',@gaplotpareto);
+[x,fval,exitflag,output,population,scores] = gamultiobj(FitnessFunction,numberOfVariables,A,b,Aeq,beq,lb,ub,options);
